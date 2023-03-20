@@ -18,7 +18,7 @@ async function main() {
   // We get the contract to deploy
   const LpMinter = await ethers.getContractFactory("LpMinter");
   //const starGirl = await StarGirl.deploy("0x6Fcb97553D41516Cb228ac03FdC8B9a0a9df04A1");
-  const lpMinter = await LpMinter.deploy("Ape","Ape",10000,1660406400);
+  const lpMinter = await LpMinter.deploy("0x0f98BB4Bdb64f61E0F797200e0e4b4d1A6928323","0xdC34eD2A70Ed825Fddd32B91215D453E0997c3f5","0xdC34eD2A70Ed825Fddd32B91215D453E0997c3f5",1000,28215000);
   //const starGirl = await StarGirl.deploy("0xf69186dfBa60DdB133E91E9A4B5673624293d8F8");
   //await swapLimit.deployed();
 
